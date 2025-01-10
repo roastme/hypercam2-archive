@@ -1,0 +1,260 @@
+2014.03.27 Version 2.29.00
+
+    Better compatibility with Windows 8
+
+2013.07.24 Version 2.28.01
+
+    Small bug fixes and performance improvements.
+
+2012.10.24 Version 2.27.01
+
+    Fixed -dumpopts and -initfrom command line options to work correctly.
+
+2012.06.06 Version 2.27.00
+
+    Fix for selecting screen area (region or window), which did not work correctly under 150% or larger screen magnification.
+
+2012.05.18 Version 2.26.00
+
+    Corrected some confusing messages inside HyperCam window.
+
+2011.05.29 Version 2.25.01
+
+    Updates for better compatibility with Firefox 4 browser.
+
+2011.03.14 Version 2.24.01
+
+    Bug fix - a file recorded with stere sound reported twice the actual lengh of the audio track
+    Better setup/uninstall
+
+2010.07.14 Version 2.23.02
+
+    Small bug fixes
+
+2010.06.07 Version 2.23.01
+
+    Added an option to "AVI File" tab to limit the screen capture color mode to 24 bits per pixel. It allows use of video compressors that cannot deal with 32-bpp images on systems that support only 16 and 32 bpp screen color mode. Normally keep this option turned off for better performance, use only if necessary.
+
+2010.05.03 Version 2.22.01
+
+    Now made completely free for world-wide use. For a more powerful commercial version of HyperCam check HyperCam 3, developed by our partner, Solveig Multimedia
+
+2010.04.26 Version 2.21.01
+
+    Easier recording of YouTube clips from HyperCam Toolbar in IE or FireFox.
+
+2010.02.12 Version 2.20.01
+
+    Sound recording in stereo is now available in HyperCam 2
+    Selection of the sound recording device (such as internal microphone, external microphone, stereo mix etc.) is now much simpler, available directoy on the "Sound" tab of HyperCam.
+
+2010.01.21 Version 2.17.02
+
+    Better integration with the optional HyperCam Toolbar in your web browser.
+
+2009.12.15 Version 2.16.03
+
+    Bug fix - after a fresh install (not an upgrade without uninstalling the older version 2.xx) an incorrect default value for frame rate was set, something like a random number, thousands of frames per second. The program would likely crash with such value for frame rate.
+
+2009.11.13 Version 2.16.01
+
+    Added "Open Output Folder" button to "AVI File" tab, to quickly find recorded movie clips.
+    Modified the default paramters (right after starting) to record sound, default to 16 bit sound sample size and capture layered/transparent windows.
+    Added more command line parameters for external control of the program.
+
+2009.10.01 Version 2.14.04
+
+    Windows 7 compatibility fixes
+    64-bit version of HyperCam released
+
+2007.03.15 Version 2.14.02
+
+    More Vista compatibility issues fixed
+
+2006.12.15 Version 2.14.01
+
+    Compatibility update for Windows Vista
+
+2006.05.19 Version 2.13.01
+
+    -intitfrom [filename] command line option added to optionally read/save options from an INI file, instead of from the registry.
+
+2005.11.17 Version 2.13.00
+
+    Setup process of HyperCam corrected to read license file and HyCam2.ini file from the same location where HC2Setup.exe is.
+
+2005.09.30 Version 2.12.00
+
+    Small bug fixes - crash when non-existing path entered on "AVI File" tab.
+
+2005.01.20 Version 2.11.00
+
+    HyperCam can now record from secondary monitors on a multi-monitor setup of Windows as well.
+
+2004.08.11 Version 2.10.02
+
+    Updated to capture correct cursor over command prompt ("MS-DOS") windows on Windows 2000, XP and higher.
+
+2004.07.11 Version 2.10.01
+
+    Correction for cursor drawing in 256 color mode (on some machines in that mode it was drawn in reverse colors), also makes frame capturing slightly faster in other color modes.
+
+2004.05.19 Version 2.10.00
+
+    New features to screen note allow inserting macros that will display currently pressed keys, date, time, user name and file name and path of recorded AVI movie. Perhaps the most useful of them is the "display pressed keys" macro that could be used in software tutorials.
+    Bug fixes, e.g. "save screen notes" function did not work correctly in earlier versions 2 - the notes could not be read back without manual editing of the file...
+
+2004.05.10 Version 2.00.01
+
+    Bug fix: after starting recording in "Paused" mode (F3 key) - on subsequent pause/resumes no more video frames are recorded.
+
+2004.04.22 Version 2.00.00
+
+    Records AVI files that may be bigger than 4 GB if necessary (on Windows NT/2000/XP and higher, NTFS disk partitions)
+    More options to screen notes added - hot keys, automatic hide after specified time-out
+    More small changes
+
+2003.11.15 Version 1.72.00
+
+    Small bug fix.
+
+2003.04.28 Version 1.71.00
+
+    Fix to automation server not registering HyperCam.tlb file upon program startup.
+
+2002.10.03 Version 1.70.05
+
+    Fixed Automation call "CaptureSingleFrame", was broken for some time...
+
+2002.09.26 Version 1.70.04
+
+    Modified to accept special "software bundle" keys (one key for 3 Hyperionics products). Installer fixed to get the correct default name for "Program Files" folder (may be different on foreign language versions of Windows)
+
+2002.06.21 Version 1.70.03
+
+    Added command line parameters that control another running instance of HyperCam (another HyperCam window): -start, -stop, -pause,
+    -resume, -hide, -show, -minimize, -restore, -exit
+    Added automation calls to control screen notes.
+    Fixed a small bug in screen notes, which would not save a default setting for text font.
+
+2002.04.11 Version 1.70.02
+
+    HyperCam tried to load DDRAW.DLL when starting or even installing
+    itself, which is not necessary. Fixed, now this DLL will be loaded only if needed.
+
+2002.02.25 Version 1.70.01
+
+    New setting added to "AVI File" tab: "Cursor/Full frame capture ratio" - allows you to capture the cursor movement with greater frequency than the rest of the screen. For example, if you enter 3 here, only every third frame will be fully captured from the screen, the other two will have only cursor position updated. This may result in a smaller movie size and better performance when recording, while still giving an impression of smooth cursor movements.
+    Added possibility to sort screen notes alphabetically.
+    All controls except for "Mouse click sound volume" slider are now enabled on "Other Options" tab during recording or paused state to let you change options there, access screen notes menu etc.
+    Bug fix: HyperCam would crash on Win9x/ME, if clicked on "Stop Recording" button instead of using hot key, and either "star bursts" for mouse clicks or mouse click sound was turned on.
+    Bug fix: When recording or paused, with "star bursts" or mouse click sound on, it was impossible to show/hide screen notes.
+    2001.09.14 Version 1.61.02 Updated only the Setup program, to offer an installation for the Current User or for All Users of the machine. This is to conform to the standards for Windows 2000 and XP.
+    2001.07.26 Version 1.61 New option added to "Screen Area" tab, to record layered and semi-transparent windows under Windows 2000 or XP. This may slow down the recording performance though, so enable only when necessary. "Edit" button added to the bottom row of buttons, to send the currently recorded movie clip to VideoFramer movie editor.
+
+2001.09.14 Version 1.61.02
+
+    Updated only the Setup program, to offer an installation for the Current User or for All Users of the machine. This is to conform to the standards for Windows 2000 and XP.
+
+2001.07.26 Version 1.61.01
+
+    New option added to "Screen Area" tab, to record layered and semi-transparent windows under Windows 2000 or XP. This may slow down the recording performance though, so enable only when necessary.
+    "Edit" button added to the bottom row of buttons, to send the currently recorded movie clip to VideoFramer movie editor.
+
+2001.05.21 Version 1.60.02
+
+    Corrected a bug in license checking code, where licenses with a name containing certain characters were not recognized as valid.
+
+2001.05.18 Version 1.60.01
+
+    Added a "Screen Notes" feature to "Other Options" tab of HyperCam. It permits annotating recorded movies with pop-up text boxes.
+    Added "Use DirectX to capture screen" option to "Screen Area" tab. This option may slightly improve recording performance on some machines. Do not use it when trying to record from full screen games using DirectX or Direct3D drivers!
+    Added automated check for new versions of HyperCam at Hyperionics web site.
+
+1999.10.21 Version 1.51.00
+Made sound recording buffers 2x longer to improve sound recording at extreme processor loads.
+Added extra Automation properties and methods:
+- Get/SetClickVolume
+- ActivateTab
+- DeleteTab
+- RestoreAllTabs
+
+1999.07.05 Version 1.50.00
+New features:
+The ability to record mouse click sounds. You can enable this option from "Other Options" tab, by setting the mouse click volume to anything higher than 0. The sounds itself are in small WAV files in HyperCam directory, named with two numbers (sound sample and sampling rate), followed by letter "d" for down mouse click, or "u" for mouse up. You can replace these files with your own versions, if you don't like ours, but they must be short and in their exact format.
+Fixes:
+If Windows is shut down while HyperCam is still recording, or if it runs out of disk space, the AVI file will be closed correctly.
+
+1999.05.17 Version 1.40.00
+HyperCam window now offers a new tab labeled "Other Options". Currently it contains check boxes to enable/disable cursor recording, and - new feature - add starbursts when mouse buttons are clicks. The duration, size and color of these starbursts can be also controlled on this tab.
+
+Added new button, "Configure this Codec", to display the native configuration dialog of the selected codec (provided by Codec DLL itself).
+
+HyperCam now remembers the last codec used, when exited and restarted.
+
+Added the "Record Sound" check box also to the "Sound" tab, to avoid confusion created previously, when this box was only available on "AVI File" tab.
+
+Recording and Paused mode are now visually distinguished by the thickness of the blinking frame, surrounding the recorded area. Thicker frame means recording, thin (1 pixel) frame means paused.
+
+Fixed bug where sound would go out of sync with video after several minutes, if the frame rate value did not divide 100
+without a remainder.
+
+1998.09.04 Version 1.34.00
+Using Alt-Keyboard shortcuts in certain situations would hang the program, fixed.
+AVI file frame size must be a multiple of 4, or else strange things happen in many players. Corrected the size entry functions to round width and height up or down to a nearest multiple of 4.
+Automation method: CaptureSingeFrame() did not work, fixed.
+
+1998.06.20 Version 1.32.00
+Prepared HyperCam for registrations with NetSales. Added "Delete License" button on the "License" tab. Fixed some small bugs.
+
+1998.06.03 Version 1.31.00
+Changed the visual feedback of different HyperCam states - e.g. upon pause of recording, it will no longer display big X across the recorded area, which sometimes was causing problems. Instead, the HyperCam window and icon title is changed from HyperCam - Recording to HyperCam - Paused, and the icon shape in title bar and task bar button is changed. What if you hide completely HyperCam window when recording? Well, it appears in the task bar if you pause recording, and hides again if you resume.
+
+1998.02.20 Version 1.30.00
+Added automation support to control HyperCam from OLE Automation client programs, e.g. from Visual Basic. Added sound recording at 8000 samples per second. Added "Show Flashing Rectangle..." button to the "Screen Area" tab.
+
+1997.12.04 Version 1.20.04
+Minor fixes in license check and added -nox option (see help file).
+
+1997.09.16 Version 1.20.02
+Minor fixes - help file page displayed on More... button press of the About box was incorrect.
+HyperCam license was re-saved on each startup causing minor (barely, if at all) noticable delay.
+
+1997.09.09 Version 1.20.01
+Fixed a bug in ver. 1.20.00, where HyperCam would just crash on "Start Recording" on Windows 95.
+
+1997.09.08 Version 1.20
+Added single frame shot hot key, that operates in "Pause" mode. Some minor bug fixes as well. Added new, expanded help.
+
+1997.05.09 Version 1.19
+Fixed two problems: starting recording in 256 color mode would produce sometimes invalid AVI files (when, upon minimizing HyperCam window for recording, another window with a different palette would come to front and realize its palette). The other problem: selecting AVI file name with Browse button would not always work correctly.
+
+1997.04.17 Version 1.18
+Sorry for so many updates lately. One more bug found and fixed: starting recording in "Paused" mode (F3 hot key) would do strange things. Fixed.
+
+1997.04.15 Version 1.17
+Fixed a problem in licenses. Fixed also a bug where HyperCam would crash after recording more than 2 minuts of video on some Windows 95 systems. Fixed problem with saving video compression quality setting.
+
+1997.04.10 Version 1.16
+Added a number of command line options to auto-start recording and override the defaults. Increased the sound buffers for high quality sound recording. Fixed incorrect values of sound sampling rate displayed on the Sound tab.
+
+1997.04.03 Version 1.15
+I'm sorry, rel. 1.14 was not right. It recorded the sound with wrong format information, and you could not switch between high and low quality sound at all. It's all fixed now, honest! Added a separate Sound tab, with even more sound parameters to select from. Also (hopefully) fixed a rare problem when HyperCam would produce invalid AVI files.
+
+1997.04.01 Version 1.14
+Added a selection to set high quality sound when recording. It's a check-box on AVI File tab. If checked on, HyperCam records 16 bit sound samples at a rate of 22050 per second. If checked off, 8 bit samples are recorded at 11025 samples per second.
+
+1997.03.10 Version 1.13
+Added a separate setting for playback frame rate on AVI File tab, which may be now set different from recording rate. However, if the playback is different from recording rate, you can not record sound.
+Separated resources into a separate CamRes.dll for easier translation into foreign languages.
+
+1997.01.17 Version 1.12
+Fixed: custom shapes of Windows 95 cursors were not captured correctly - they were always dispalyed as standard cursors. Controls inside HyperCam dialog are now disabled while recording a movie.
+You can now use Tab key to move the focus between all controls of HyperCam dialog.
+Fixed GDI resource leak on Windows 95 (could prevent you from recording very long clips, or many short clips without exiting HyperCam).
+
+1997.01.09 Version 1.11
+Fixed problems on Hebrew version of Windows 95, and on Windows NT 3.51.
+
+1997.01.08 Version 1.1
+This is the first full release of HyperCam. It was proceeded by a number of beta test releases between November 1996 and January 1997.
